@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./src/build/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -14,38 +16,49 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#">Пункт1</a>
             <a class="nav-item nav-link" href="#">Пункт2</a>
-            <a class="nav-item nav-link" href="#openModal">Пункт3</a>
+            <a class="nav-item nav-link" href="#myModalBox">Пункт3</a>
           </div>
         </div>
     </nav>
 
-    <div id="openModal" class="openModal"> 
-        <div class="modal-dialog">
-                <div class="modal-content">
-                        <div class="modal-header">
-                          <h3 class="modal-title">Название</h3>
-                          <a href="#close" title="Close" class="close">×</a>
-                        </div>
-                        <div class="modal-body">    
-                          <p>Содержимое модального окна...</p>
-                        </div>
-                      </div>
+    <div class="modalBox">
+      <div class="modalDialog">
+        <div class="modalContent">
+          <div class="modalHeader">
+            <h3 class="headerTitle">Invite people to project</h3>
+            <i class="fa fa-times"></i>
+          </div>
+          <div class="modalKeep">
+            <div class="keepHeaders">
+              <form>
+                <img src="./img/loupe.png" alt='loupe' class='loupe'/>
+              
+                <input type="text" value="Name or email" class="form-control input"> 
+              <select class="select">
+                <option value="1">Can edit</option>
+              </select>
+            </form>
+              <button class="btn btn-primary">Invite 1 person</button>
+            </div>
+          </div>
+          <div class="modalFooter">
+            <p class="footerTitle">Or share this Project with Public link</p>
+            <div class="closes">
+              <select>
+                <option value="1">Can edit</option>
+              </select>
+              <button>
+                Copy link
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
+    
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae, esse architecto fuga quia obcaecati ea sint ducimus error labore dolores culpa harum debitis odit itaque officia at quaerat reiciendis.</p>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="./src/build/js/script.js"></script>
 </body>
