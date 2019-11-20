@@ -48,7 +48,8 @@
 
 /*keep*/
 .keepHeaders {
-  display: flex; }
+  display: flex;
+  margin-bottom: 27px; }
 
 form {
   position: relative; }
@@ -83,9 +84,76 @@ input[type='text'] {
   height: 45px;
   margin-left: 10px; }
 
+/*people*/
+.peopleItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; }
+
+.itemLeft {
+  display: flex;
+  height: 30px; }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px; }
+
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #666666;
+  line-height: 18px; }
+
+.email {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  color: rgba(102, 102, 102, 0.8); }
+
+.spent {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  color: #BABABA; }
+
+.button {
+  width: 131px;
+  height: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #757575;
+  background: none;
+  border: 1px solid #dbdbdb;
+  margin-left: 20px; }
+
 /* footer */
 .footerTitle {
   font-size: 13px;
-  color: #000000; }
+  color: #000000;
+  margin-top: 15px; }
+
+.closes {
+  display: flex; }
+
+.sel {
+  position: relative;
+  width: 105px; }
+  .sel select {
+    width: 105px;
+    height: 46px;
+    padding: 0 37px 2px 17px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    appearance: none;
+    color: #757575;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif; }
+  .sel .fas {
+    position: absolute;
+    right: 17px;
+    top: 30%; }
 
 /*# sourceMappingURL=style.css.map */
